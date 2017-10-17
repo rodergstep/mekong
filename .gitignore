@@ -34,7 +34,7 @@ bower_components
 node_modules/*
 addons/*
 src/*
-build/*
+
 gulp/*
 gulpfile.js
 gutil.log
