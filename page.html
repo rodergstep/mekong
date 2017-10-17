@@ -8,6 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fff">
     <meta name="format-detection" content="telephone=no">
+    <!-- Template Basic Images Start -->
+    <meta property="og:title" content="">
+    <meta property="og:image" content="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <!-- Template Basic Images End -->
     <link rel="stylesheet" media="all" href="css/app.css"> </head>
 
   <body>
@@ -17,13 +25,18 @@
       <header class="header">
         <div class="header__logo"> <a href="index.html" class="header__logo-link">
       <img src="img/logo.svg" alt="Mekong logo"></a> </div>
-        <nav class="header__nav"> <a href="index.html" class="header__nav-link is-active">Home</a> <a href="features.html" class="header__nav-link">Features</a> <a href="#" class="header__nav-link">FAQ</a> <a href="#" class="header__nav-link">Support</a> <a href="contact.html"
-            class="header__nav-link header__nav--contact">Contact</a> <a href="#" class="header__nav-link">About</a> </nav>
+        <div id="nav-wrap">
+          <nav class="header__nav"> <a href="index.html" class="header__nav-link is-active">Home</a> <a href="features.html" class="header__nav-link">Features</a> <a href="#" class="header__nav-link">FAQ</a> <a href="#" class="header__nav-link">Support</a> <a href="contact.html"
+              class="header__nav-link header__nav--contact">Contact</a> <a href="#" class="header__nav-link">About</a> </nav>
+        </div>
         <div class="header__icons"> <a href="#" class="header__user">
 <svg class="icon icon-user"><use xlink:href="img/sprite.svg#icon-user"></use></svg>
 </a> <a href="#" class="header__sign-in">
 <svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
 </a> </div>
+        <a href="#" id="touch-menu">
+          <div id="nav-icon1"> <span></span> <span></span> <span></span> </div>
+        </a>
       </header>
       <!-- end header -->
       <div class="frontpage">
@@ -509,6 +522,7 @@
 
       </script>
       <!-- main -->
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
       <script type="text/javascript" src="js/app.js"></script>
   </body>
 
