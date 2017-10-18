@@ -16,6 +16,16 @@
     <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
     <!-- Template Basic Images End -->
+    <!-- Intellectual web font loader -->
+    <script src="js/lib/fontfaceobserver.js"></script>
+    <script>
+      var output = new FontFaceObserver('Avenir');
+      output.load().then(function()
+      {
+        console.log('Avenir font has loaded');
+      });
+
+    </script>
     <link rel="stylesheet" media="all" href="css/app.css"> </head>
 
   <body>
@@ -67,7 +77,7 @@
       </script>
       <!-- main -->
       <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="js/app.js"></script>
+      <script src="js/app.js"></script>
   </body>
 
 </html>
