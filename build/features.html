@@ -39,14 +39,14 @@
         <div class="header__logo"> <a href="index.html" class="header__logo-link">
       <img src="img/logo.svg" alt="Mekong logo"></a> </div>
         <div id="nav-wrap">
-          <nav class="header__nav"> <a href="index.html" class="header__nav-link is-active">Home</a> <a href="features.html" class="header__nav-link">Features</a> <a href="#" class="header__nav-link">FAQ</a> <a href="#" class="header__nav-link">Support</a> <a href="contact.html"
-              class="header__nav-link header__nav--contact">Contact</a> <a href="#" class="header__nav-link">About</a> </nav>
+          <nav class="header__nav"> <a href="index.html" class="header__nav-link is-active">Home</a> <a href="features.html" class="header__nav-link">Features</a>
+            <!-- <a href="#" class="header__nav-link">FAQ</a> --><a href="#" class="header__nav-link">Support</a> <a href="contact.html" class="header__nav-link header__nav--contact">Contact</a> <a href="about.html" class="header__nav-link">About</a> </nav>
         </div>
         <div class="header__icons"> <a href="#" class="header__user">
 <svg class="icon icon-user"><use xlink:href="img/sprite.svg#icon-user"></use></svg>
-</a> <a href="#" class="header__sign-in">
+</a> <a href="https://www.mekongmoments.com" class="header__back">
 <svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
-</a> </div>
+ <span>BACK TO MEKONG MOMENTS</span></a> </div>
         <a href="#" id="touch-menu">
           <div id="nav-icon1"> <span></span> <span></span> <span></span> </div>
         </a>
@@ -65,7 +65,6 @@
                     <!-- plan bronze -->
                     <div class="plans__item plans__item--bronze">
                       <a href="#tariff-bronze">
-                        <div class="plan__label"> <svg class="icon icon-label"><use xlink:href="img/sprite.svg#icon-label"></use></svg> <span class="plan__label-text">Free set-up</span> </div>
                         <div class="plan__head">
                           <div class="plan__icons-box">
                             <div class="plan__icon"> <span class="icon-wrap">
@@ -96,7 +95,8 @@
                         </ul> <span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span>
-                        <div class="plan__price"> <span class="plan__price-number">
+                        <div class="plan__bottom"> <span class="plan__bottom-free">FREE</span> <span>with active campaign</span> </div>
+                        <div class="plan__price plan__price--1"> <span class="plan__price-per">otherwise</span> <span class="plan__price-number">
 <svg class="icon icon-dollar"><use xlink:href="img/sprite.svg#icon-dollar"></use></svg>
 5</span> <span class="plan__price-per">Per month</span> </div>
                       </a>
@@ -140,7 +140,8 @@
                           <li class="plan__list-item"> <svg class="icon icon-check"><use xlink:href="img/sprite.svg#icon-check"></use></svg> <span>Own branding</span> </li>
                           <li class="plan__list-item"> <svg class="icon icon-check"><use xlink:href="img/sprite.svg#icon-check"></use></svg> <span> Connect internal experiences</span> </li>
                           <li class="plan__list-item"> <svg class="icon icon-check"><use xlink:href="img/sprite.svg#icon-check"></use></svg> <span>Show offers and Campaigns on your page</span> </li>
-                          <li class="plan__list-item"> <svg class="icon icon-check"><use xlink:href="img/sprite.svg#icon-check"></use></svg> <span>Event calendar Image gallery</span> </li>
+                          <li class="plan__list-item"> <svg class="icon icon-check"><use xlink:href="img/sprite.svg#icon-check"></use></svg> <span>Event calendar</span> </li>
+                          <li class="plan__list-item"> <svg class="icon icon-check"><use xlink:href="img/sprite.svg#icon-check"></use></svg> <span>Image gallery</span> </li>
                         </ul> <span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span>
@@ -207,17 +208,18 @@
                 </div>
                 <div class="container">
                   <div class="cards-wrap">
-                    <div class="cards__item">
-                      <div class="card__item--1">
-                        <h5 class="card__title plan__title">SILVER EXPERIENCE</h5>
-                        <div class="card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
-                    </div>
-                    <div class="cards__item">
+                    <div class="cards__item"><img data-src="img/card1.jpg" alt="Mekong Moments"></div>
+                    <div class="cards__item cards__item--text">
+                      <h5 class="card__title plan__title">SILVER EXPERIENCE</h5>
+                      <p class="card__desc">Experiences that want to showcase their brand can have branded experience pages with additional features.</p> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
+                    <div class="cards__item"><img data-src="img/card2.jpg" alt="Mekong Moments"></div>
+                    <div class="cards__item cards__item--text">
                       <h5 class="card__title plan__title">BRONZE EXPERIENCE</h5>
-                      <div class="card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
-                    <div class="cards__item">
+                      <p class="card__desc">Do you want to participate at this collaborative social campaign but you don’t have a large budget? Then the Bronze experience ist just right for you.</p> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
+                    <div class="cards__item"><img data-src="img/card3.jpg" alt="Mekong Moments"></div>
+                    <div class="cards__item cards__item--text">
                       <h5 class="card__title plan__title">GOLD EXPERIENCE</h5>
-                      <div class="card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
+                      <p class="card__desc">Gold experiences are fully customized pages with all Mekong Moments features, additional support. Make it your own and upgrade to a Gold Experience today!</p> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
                   </div> <a href="compare.html" class="section__compare section__title">COMPARE FEATURES</a> </div>
               </div>
             </div>
@@ -231,7 +233,7 @@
                   <div class="container">
                     <!-- plan bronze -->
                     <div class="plans__item plans__item--bronze">
-                      <div class="plan__label"> <svg class="icon icon-label"><use xlink:href="img/sprite.svg#icon-label"></use></svg> <span class="plan__label-text">Free set-up</span> </div>
+                      <div class="plan__label"> <svg class="icon icon-label"><use xlink:href="img/sprite.svg#icon-label"></use></svg> <span class="plan__label-text">150$ set-up fee</span> </div>
                       <div class="plan__head">
                         <div class="plan__icons-box">
                           <div class="plan__icon"> <span class="icon-wrap">
@@ -332,837 +334,832 @@
                 </div>
                 <div class="container">
                   <div class="cards-wrap">
-                    <div class="cards__item">
-                      <div class="card__item--1">
-                        <h5 class="card__title plan__title">SILVER GROUP PAGE</h5>
-                        <div class="card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
-                    </div>
-                    <div class="cards__item">
-                      <h5 class="card__title plan__title">BRONZE GROUP PAGE</h5>
-                      <div class="card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
-                    <div class="cards__item">
-                      <h5 class="card__title plan__title">GOLD GROUP PAGE</h5>
-                      <div class="card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
-                  </div> <a href="compare.html" class="section__compare section__title">COMPARE FEATURES</a> </div>
-              </div>
+                    <div class="cards__item"><img data-src="img/card4.jpg" alt="Mekong Moments"></div>
+                    <div class="cards__item cards__item--text">
+                      <h5 class="card__title plan__title">SILVER GROUP PAGE</h5>
+                      <div class="card__desc">Similar to the Silver Experience pages, the Silver Group page is a branded platform to feature your experiences, events, offers and stories on a single platform.</div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
+                    <div
+                      class="cards__item"><img data-src="img/card5.jpg" alt="Mekong Moments"></div>
+                  <div class="cards__item cards__item--text">
+                    <h5 class="card__title plan__title">BRONZE GROUP PAGE</h5>
+                    <div class="card__desc">Do you need a group page to connect all your experiences but you have a limited budget? The Mekong Moments Bronze Group page is just what you need.</div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
+                  <div class="cards__item"><img data-src="img/card6.jpg" alt="Mekong Moments"></div>
+                  <div class="cards__item cards__item--text">
+                    <h5 class="card__title plan__title">GOLD GROUP PAGE</h5>
+                    <div class="card__desc">A Gold Group Page is almost like a private label MekongMoments platform for your brand. Benefit from additional features and extended customisation opportunities. </div> <a href="#" class="card__button">CREATE YOUR OWN</a> </div>
+                </div>
+                <a href="compare.html" class="section__compare section__title">COMPARE FEATURES</a> </div>
             </div>
-          </section>
-          <div class="section-table">
-            <h2 class="section__title">FEATURES SUPPORT</h2>
-            <div class="container">
-              <div class="tables-wrap">
-                <!-- table business support -->
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th> <span class="table__head">BUSINESS SUPPORT</span> </th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="table__left-ceil">Access to FAQ and support page</td>
-                      <td><span class="table__right-ceil">FREE</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">Download standard marketing materials</td>
-                      <td><span class="table__right-ceil">FREE</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">Customized marketing materials (per item)</td>
-                      <td><span class="table__right-ceil">$150.00</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">Customized MekongMoments video</td>
-                      <td><span class="table__right-ceil">$450.00</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">Set-up support (per bronze experience)</td>
-                      <td><span class="table__right-ceil">$60.00</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">Training Materials</td>
-                      <td><span class="table__right-ceil">FREE</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">Boosting of Experience, Offers, Campaigns and Events</td>
-                      <td><span class="table__right-ceil">FREE $0.20 (PER DAY)</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">Boosting of favourite Moments</td>
-                      <td><span class="table__right-ceil">FREE $0.10 (PER DAY)</span></td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- table discount -->
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th> <span class="table__head">DISCOUNT</span> </th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="table__left-ceil">10-24 Experiences</td>
-                      <td><span class="table__right-ceil">5%</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">25-49 Experiences</td>
-                      <td><span class="table__right-ceil">10%</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">50-74 Experiences</td>
-                      <td><span class="table__right-ceil">15%</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">75-99 Experiences</td>
-                      <td><span class="table__right-ceil">25%</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">More than 100 experiences</td>
-                      <td><span class="table__right-ceil">35%</span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class="section-table compare">
-            <h2 class="section__title">EXPERIENCE PAGE FEATURES</h2>
-            <div class="container">
-              <div class="tables-wrap">
-                <!-- table plan comparing -->
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th class="table__head"> <span>FEATURES</span> </th>
-                      <th>
-                        <div class="plan__name">
-                          <div class="plan__icons-box">
-                            <div class="plan__icon"> <span class="icon-wrap">
-<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
-
-                          </span> </div>
-                          </div> <span>BRONZE</span> </div>
-                      </th>
-                      <th>
-                        <div class="plan__name ">
-                          <div class="plan__icons-box ">
-                            <div class="plan__icon plan__icon--silver"> <span class="icon-wrap">
-<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
-
-                          </span> </div>
-                          </div> <span>SILVER</span> </div>
-                      </th>
-                      <th>
-                        <div class="plan__name">
-                          <div class="plan__icons-box">
-                            <div class="plan__icon plan__icon--gold"> <span class="icon-wrap">
-<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
-
-                          </span> </div>
-                          </div> <span>GOLD</span> </div>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">MekongMoments map listing</h6>
-                        <p class="table__ceil-text">Your experience will be pinned on the main MekongMoments map and will be searchable on the platform</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Moments board on experience page</h6>
-                        <p class="table__ceil-text">The Moments board shows the aggregated social media images from your campaigns. You are able to control the image via the business backend.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Embed code for Moments board</h6>
-                        <p class="table__ceil-text">Generate an embed code your moments boards with various customization options and include it in any other media such as websites, LED screens, event projector screens, etc.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span> <span class="icon-desc">(Branded)</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span> <span class="icon-desc">(Full API)</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Unlimited campaigns and offers</h6>
-                        <p class="table__ceil-text">Create and run as many campaigns as you wish.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Listing of campaigns and offers</h6>
-                        <p class="table__ceil-text">Your campaigns and offers will be listed on the MekongMoments offers page</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Show your features on your experience page</h6>
-                        <p class="table__ceil-text">Make yourself easier searchable by showcasing your features from accepting credit cards to offering pet friendly rooms.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Show your affiliations</h6>
-                        <p class="table__ceil-text">Showcase your certifed affliations and your group membership to appeal to special target groups</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Connect with external Experiences</h6>
-                        <p class="table__ceil-text">Create a map of experiences on your MekongMoments experience page (permission for two-way connection required)</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">REPORTING TOOLS</h6>
-                        <p class="table__ceil-text"></p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span><span class="icon-desc">(Advanced)</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Unlimited event pages</h6>
-                        <p class="table__ceil-text">Promote your events on MekongMoments. Collect event images to the Moment board on the events page.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Syndication available (under development)</h6>
-                        <p class="table__ceil-text">Make your content and main images available to interested parties all over the world.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Availability to showcase experiences, events and offers</h6>
-                        <p class="table__ceil-text">Feature your experiences, events and offer on the MekongMoments map and listings pages with a targeted boost.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Business resources and support</h6>
-                        <p class="table__ceil-text">Download marketing materials, request customized collateral, book creative and other support. Register for a training.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Access to partner services</h6>
-                        <p class="table__ceil-text">MekongMoments will connect you to partner services of trusted business service providers, from photographers to booking engines.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Own branding</h6>
-                        <p class="table__ceil-text">Make your MekongMoments experience page your own by placing your own logo and applying your corporate colours. Removal of MekongMoments watermark.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Connect internal experiences</h6>
-                        <p class="table__ceil-text">Showcase your own experiences on each other’s pages.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Show offers and Campaigns on your page</h6>
-                        <p class="table__ceil-text">Showcase your offers and campaign on your own page to your own customers.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Event calendar</h6>
-                        <p class="table__ceil-text">In addition, to showing your event on the main page, add an event calendar page to your experience.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Image gallery</h6>
-                        <p class="table__ceil-text">Add an image gallery to your page to showcase your professional imagery.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Choices to customize website</h6>
-                        <p class="table__ceil-text">Have a choice to templates for your experience. The template are customized to meet various requirements, e.g. hotels, restaurants, etc.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Own URL</h6>
-                        <p class="table__ceil-text">Make your experience page your own by connecting it to your URL.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Booking engine integration</h6>
-                        <p class="table__ceil-text">Make direct bookings easier by integration your booking engine.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Gold support</h6>
-                        <p class="table__ceil-text">Have access to your personal customer service agent.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr class="green-ceil green1-ceil">
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Set-up fee (one-time)</h6>
-                      </td>
-                      <td class="table__check-ceil">$60.00</td>
-                      <td class="table__check-ceil">$250.00</td>
-                      <td class="table__check-ceil">$1,500.00</td>
-                    </tr>
-                    <tr class="green-ceil green2-ceil">
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Monthly fees (monthly payment)</h6>
-                      </td>
-                      <td class="table__check-ceil">$60.00</td>
-                      <td class="table__check-ceil">$50.00</td>
-                      <td class="table__check-ceil">$300.00</td>
-                    </tr>
-                    <tr class="green-ceil green3-ceil">
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Monthly fees (annual payment)</h6>
-                      </td>
-                      <td class="table__check-ceil">$60.00</td>
-                      <td class="table__check-ceil">$25.00</td>
-                      <td class="table__check-ceil">$150.00</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <!-- Compare group page features -->
-          <div class="section-table compare compare--group">
-            <h2 class="section__title">GROUP PAGE FEATURES</h2>
-            <div class="container">
-              <div class="tables-wrap">
-                <!-- table plan comparing -->
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th> <span class="table__head">FEATURES</span> </th>
-                      <th>
-                        <div class="plan__name">
-                          <div class="plan__icons-box">
-                            <div class="plan__icon"> <span class="icon-wrap">
-<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
-
-                            </span> </div>
-                          </div> <span>BRONZE</span> </div>
-                      </th>
-                      <th>
-                        <div class="plan__name ">
-                          <div class="plan__icons-box ">
-                            <div class="plan__icon plan__icon--silver"> <span class="icon-wrap">
-<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
-
-                            </span> </div>
-                          </div> <span>SILVER</span> </div>
-                      </th>
-                      <th>
-                        <div class="plan__name">
-                          <div class="plan__icons-box">
-                            <div class="plan__icon plan__icon--gold"> <span class="icon-wrap">
-<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
-
-                            </span> </div>
-                          </div> <span>GOLD</span> </div>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Inclusion of an unlimited number of experiences</h6>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Connect with your Experiences</h6>
-                        <p class="table__ceil-text">Create a map of experiences on your MekongMoments experience page (permission for two-way connection required)</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Moments board on group page</h6>
-                        <p class="table__ceil-text">The Moments board shows the aggregated social media images from your experiences. You are able to control the image via the business backend.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span> </td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span> </td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Embed code for Moments board</h6>
-                        <p class="table__ceil-text">Generate an embed code your moments boards with various customization options and include it in any other media such as websites, LED screens, event projector screens, etc.</p>
-                      </td>
-                      <td class="table__check-ceil"><span class="icon__check--bronze">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span><span class="icon-desc">(Branded)</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span><span class="icon-desc">(Full API)</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Own branding</h6>
-                        <p class="table__ceil-text">Your campaigns and offers will be listed on the MekongMoments offers page</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Custom map page</h6>
-                        <p class="table__ceil-text">Show all your connected experiences on a custom map page. All experiences are searchable and can be browsed by category, location, features, etc.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Custom offers and campaigns page</h6>
-                        <p class="table__ceil-text">Show all your connected experiences on a custom map page. All experiences are searchable and can be browsed by category, location, features, etc.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Custom events page</h6>
-                        <p class="table__ceil-text">Showcase your events and your experiences’ evebts on your own page to your own customers. Event can be searched and browsed.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Custom STORIES page</h6>
-                        <p class="table__ceil-text">Publish your stories on your own stories page.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Choices to customize website</h6>
-                        <p class="table__ceil-text">Have a choice to templates for your group site.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--silver">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Own URL</h6>
-                        <p class="table__ceil-text">Make your group page your own by connecting it to your URL.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Booking engine integration</h6>
-                        <p class="table__ceil-text">Make direct bookings easier by integration your booking engine.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr>
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">GOLD SUPPORT</h6>
-                        <p class="table__ceil-text">Have access to your personal customer service agent.</p>
-                      </td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"></td>
-                      <td class="table__check-ceil"><span class="icon__check--gold">
-<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
-</span></td>
-                    </tr>
-                    <tr class="green-ceil green1-ceil">
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Set-up fee (one-time)</h6>
-                      </td>
-                      <td class="table__check-ceil">$150.00</td>
-                      <td class="table__check-ceil">$350.00</td>
-                      <td class="table__check-ceil">$1,500.00</td>
-                    </tr>
-                    <tr class="green-ceil green2-ceil">
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Monthly fees (monthly payment)</h6>
-                      </td>
-                      <td class="table__check-ceil">$100.00</td>
-                      <td class="table__check-ceil">$300.00</td>
-                      <td class="table__check-ceil">$1,000.00</td>
-                    </tr>
-                    <tr class="green-ceil green3-ceil">
-                      <td class="table__left-ceil">
-                        <h6 class="table__ceil-title">Monthly fees (annual payment)</h6>
-                      </td>
-                      <td class="table__check-ceil">$50.00</td>
-                      <td class="table__check-ceil">$150.00</td>
-                      <td class="table__check-ceil">$500.00</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+        </div>
+        </section>
+        <div class="section-table">
+          <h2 class="section__title">FEATURES SUPPORT</h2>
+          <div class="container">
+            <div class="tables-wrap">
+              <!-- table business support -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th> <span class="table__head">BUSINESS SUPPORT</span> </th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table__left-ceil">Access to FAQ and support page</td>
+                    <td><span class="table__right-ceil">FREE</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">Download standard marketing materials</td>
+                    <td><span class="table__right-ceil">FREE</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">Customized marketing materials (per item)</td>
+                    <td><span class="table__right-ceil">$150.00</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">Customized MekongMoments video</td>
+                    <td><span class="table__right-ceil">$450.00</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">Set-up support (per bronze experience)</td>
+                    <td><span class="table__right-ceil">$60.00</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">Training Materials</td>
+                    <td><span class="table__right-ceil">FREE</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">Boosting of Experience, Offers, Campaigns and Events</td>
+                    <td><span class="table__right-ceil">FREE $0.20 (PER DAY)</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">Boosting of favourite Moments</td>
+                    <td><span class="table__right-ceil">FREE $0.10 (PER DAY)</span></td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- table discount -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th> <span class="table__head">DISCOUNT</span> </th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table__left-ceil">10-24 Experiences</td>
+                    <td><span class="table__right-ceil">5%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">25-49 Experiences</td>
+                    <td><span class="table__right-ceil">10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">50-74 Experiences</td>
+                    <td><span class="table__right-ceil">15%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">75-99 Experiences</td>
+                    <td><span class="table__right-ceil">25%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">More than 100 experiences</td>
+                    <td><span class="table__right-ceil">35%</span></td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
-        <!-- end main -->
-        <!-- begin footer  -->
-        <footer class="footer"> </footer>
-        <!-- end footer -->
+        <div class="section-table compare">
+          <h2 class="section__title">EXPERIENCE PAGE FEATURES</h2>
+          <div class="container">
+            <div class="tables-wrap">
+              <!-- table plan comparing -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="table__head"> <span>FEATURES</span> </th>
+                    <th>
+                      <div class="plan__name">
+                        <div class="plan__icons-box">
+                          <div class="plan__icon"> <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+
+                          </span> </div>
+                        </div> <span>BRONZE</span> </div>
+                    </th>
+                    <th>
+                      <div class="plan__name ">
+                        <div class="plan__icons-box ">
+                          <div class="plan__icon plan__icon--silver"> <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+
+                          </span> </div>
+                        </div> <span>SILVER</span> </div>
+                    </th>
+                    <th>
+                      <div class="plan__name">
+                        <div class="plan__icons-box">
+                          <div class="plan__icon plan__icon--gold"> <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+
+                          </span> </div>
+                        </div> <span>GOLD</span> </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">MekongMoments map listing</h6>
+                      <p class="table__ceil-text">Your experience will be pinned on the main MekongMoments map and will be searchable on the platform</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Moments board on experience page</h6>
+                      <p class="table__ceil-text">The Moments board shows the aggregated social media images from your campaigns. You are able to control the image via the business backend.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Embed code for Moments board</h6>
+                      <p class="table__ceil-text">Generate an embed code your moments boards with various customization options and include it in any other media such as websites, LED screens, event projector screens, etc.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span> <span class="icon-desc">(Branded)</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span> <span class="icon-desc">(Full API)</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Unlimited campaigns and offers</h6>
+                      <p class="table__ceil-text">Create and run as many campaigns as you wish.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Listing of campaigns and offers</h6>
+                      <p class="table__ceil-text">Your campaigns and offers will be listed on the MekongMoments offers page</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Show your features on your experience page</h6>
+                      <p class="table__ceil-text">Make yourself easier searchable by showcasing your features from accepting credit cards to offering pet friendly rooms.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Show your affiliations</h6>
+                      <p class="table__ceil-text">Showcase your certifed affliations and your group membership to appeal to special target groups</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Connect with external Experiences</h6>
+                      <p class="table__ceil-text">Create a map of experiences on your MekongMoments experience page (permission for two-way connection required)</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">REPORTING TOOLS</h6>
+                      <p class="table__ceil-text"></p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span><span class="icon-desc">(Advanced)</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Unlimited event pages</h6>
+                      <p class="table__ceil-text">Promote your events on MekongMoments. Collect event images to the Moment board on the events page.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Syndication available (under development)</h6>
+                      <p class="table__ceil-text">Make your content and main images available to interested parties all over the world.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Availability to showcase experiences, events and offers</h6>
+                      <p class="table__ceil-text">Feature your experiences, events and offer on the MekongMoments map and listings pages with a targeted boost.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Business resources and support</h6>
+                      <p class="table__ceil-text">Download marketing materials, request customized collateral, book creative and other support. Register for a training.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Access to partner services</h6>
+                      <p class="table__ceil-text">MekongMoments will connect you to partner services of trusted business service providers, from photographers to booking engines.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Own branding</h6>
+                      <p class="table__ceil-text">Make your MekongMoments experience page your own by placing your own logo and applying your corporate colours. Removal of MekongMoments watermark.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Connect internal experiences</h6>
+                      <p class="table__ceil-text">Showcase your own experiences on each other’s pages.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Show offers and Campaigns on your page</h6>
+                      <p class="table__ceil-text">Showcase your offers and campaign on your own page to your own customers.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Event calendar</h6>
+                      <p class="table__ceil-text">In addition, to showing your event on the main page, add an event calendar page to your experience.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Image gallery</h6>
+                      <p class="table__ceil-text">Add an image gallery to your page to showcase your professional imagery.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Choices to customize website</h6>
+                      <p class="table__ceil-text">Have a choice to templates for your experience. The template are customized to meet various requirements, e.g. hotels, restaurants, etc.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Own URL</h6>
+                      <p class="table__ceil-text">Make your experience page your own by connecting it to your URL.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Booking engine integration</h6>
+                      <p class="table__ceil-text">Make direct bookings easier by integration your booking engine.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Gold support</h6>
+                      <p class="table__ceil-text">Have access to your personal customer service agent.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr class="green-ceil green1-ceil">
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Set-up fee (one-time)</h6>
+                    </td>
+                    <td class="table__check-ceil">$60.00</td>
+                    <td class="table__check-ceil">$250.00</td>
+                    <td class="table__check-ceil">$1,500.00</td>
+                  </tr>
+                  <tr class="green-ceil green2-ceil">
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Monthly fees (monthly payment)</h6>
+                    </td>
+                    <td class="table__check-ceil">$60.00</td>
+                    <td class="table__check-ceil">$50.00</td>
+                    <td class="table__check-ceil">$300.00</td>
+                  </tr>
+                  <tr class="green-ceil green3-ceil">
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Monthly fees (annual payment)</h6>
+                    </td>
+                    <td class="table__check-ceil">$60.00</td>
+                    <td class="table__check-ceil">$25.00</td>
+                    <td class="table__check-ceil">$150.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Compare group page features -->
+        <div class="section-table compare compare--group">
+          <h2 class="section__title">GROUP PAGE FEATURES</h2>
+          <div class="container">
+            <div class="tables-wrap">
+              <!-- table plan comparing -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th> <span class="table__head">FEATURES</span> </th>
+                    <th>
+                      <div class="plan__name">
+                        <div class="plan__icons-box">
+                          <div class="plan__icon"> <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+
+                            </span> </div>
+                        </div> <span>BRONZE</span> </div>
+                    </th>
+                    <th>
+                      <div class="plan__name ">
+                        <div class="plan__icons-box ">
+                          <div class="plan__icon plan__icon--silver"> <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+
+                            </span> </div>
+                        </div> <span>SILVER</span> </div>
+                    </th>
+                    <th>
+                      <div class="plan__name">
+                        <div class="plan__icons-box">
+                          <div class="plan__icon plan__icon--gold"> <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+
+                            </span> </div>
+                        </div> <span>GOLD</span> </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Inclusion of an unlimited number of experiences</h6>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Connect with your Experiences</h6>
+                      <p class="table__ceil-text">Create a map of experiences on your MekongMoments experience page (permission for two-way connection required)</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Moments board on group page</h6>
+                      <p class="table__ceil-text">The Moments board shows the aggregated social media images from your experiences. You are able to control the image via the business backend.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span> </td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span> </td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Embed code for Moments board</h6>
+                      <p class="table__ceil-text">Generate an embed code your moments boards with various customization options and include it in any other media such as websites, LED screens, event projector screens, etc.</p>
+                    </td>
+                    <td class="table__check-ceil"><span class="icon__check--bronze">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span><span class="icon-desc">(Branded)</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span><span class="icon-desc">(Full API)</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Own branding</h6>
+                      <p class="table__ceil-text">Your campaigns and offers will be listed on the MekongMoments offers page</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Custom map page</h6>
+                      <p class="table__ceil-text">Show all your connected experiences on a custom map page. All experiences are searchable and can be browsed by category, location, features, etc.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Custom offers and campaigns page</h6>
+                      <p class="table__ceil-text">Show all your connected experiences on a custom map page. All experiences are searchable and can be browsed by category, location, features, etc.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Custom events page</h6>
+                      <p class="table__ceil-text">Showcase your events and your experiences’ evebts on your own page to your own customers. Event can be searched and browsed.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Custom STORIES page</h6>
+                      <p class="table__ceil-text">Publish your stories on your own stories page.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Choices to customize website</h6>
+                      <p class="table__ceil-text">Have a choice to templates for your group site.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--silver">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Own URL</h6>
+                      <p class="table__ceil-text">Make your group page your own by connecting it to your URL.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Booking engine integration</h6>
+                      <p class="table__ceil-text">Make direct bookings easier by integration your booking engine.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">GOLD SUPPORT</h6>
+                      <p class="table__ceil-text">Have access to your personal customer service agent.</p>
+                    </td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"></td>
+                    <td class="table__check-ceil"><span class="icon__check--gold">
+<svg class="icon icon-check2"><use xlink:href="img/sprite.svg#icon-check2"></use></svg>
+</span></td>
+                  </tr>
+                  <tr class="green-ceil green1-ceil">
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Set-up fee (one-time)</h6>
+                    </td>
+                    <td class="table__check-ceil">$150.00</td>
+                    <td class="table__check-ceil">$350.00</td>
+                    <td class="table__check-ceil">$1,500.00</td>
+                  </tr>
+                  <tr class="green-ceil green2-ceil">
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Monthly fees (monthly payment)</h6>
+                    </td>
+                    <td class="table__check-ceil">$100.00</td>
+                    <td class="table__check-ceil">$300.00</td>
+                    <td class="table__check-ceil">$1,000.00</td>
+                  </tr>
+                  <tr class="green-ceil green3-ceil">
+                    <td class="table__left-ceil">
+                      <h6 class="table__ceil-title">Monthly fees (annual payment)</h6>
+                    </td>
+                    <td class="table__check-ceil">$50.00</td>
+                    <td class="table__check-ceil">$150.00</td>
+                    <td class="table__check-ceil">$500.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- ******************
+      <!-- end main -->
+      <!-- begin footer  -->
+      <div class="section-footer"> </div>
+      <!-- end section footer -->
+    </div>
+    <!-- ******************
 ****************** -->
-      <div class="tariff-wrap" id="tariff-bronze">
-        <!-- begin main  -->
-        <div class="main">
-          <!-- tariff bronze -->
-          <section class="tariff__section tariff__section--light">
-            <div class="container">
-              <h2 class="tariff__title"> <span class="plan__icons-box">
+    <div class="tariff-wrap" id="tariff-bronze">
+      <!-- begin main  -->
+      <div class="main">
+        <!-- tariff bronze -->
+        <section class="tariff__section tariff__section--light">
+          <div class="container">
+            <h2 class="tariff__title"> <span class="plan__icons-box">
                 <span class="plan__icon">
                   <span class="icon-wrap">
 <svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
 </span> </span>
-                </span> BRONZE EXPERIENCE</h2>
-              <div class="tariff">
-                <div class="tariff__picture"> <img data-src="img/bronze-landing.jpg" alt="Bronze Landing Page pictute"> </div>
-                <article class="tariff__article">
-                  <h3 class="article__title">Bronze Landing Page</h3>
-                  <h6 class="article__small-title">MekongMoments ‘Bronze’ experience page</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
-                    ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.</p>
-                  <h6 class="article__small-title">Descriptions</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi.</p>
-                  <h6 class="article__small-title">Action Button</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi.</p>
-                  <h6 class="article__small-title">Weather Bar</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi.</p>
-                  <h6 class="article__small-title">Social Media Connector</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi.</p>
-                </article>
-                <!-- plus icon --><span class="add-plus">
+              </span> BRONZE EXPERIENCE</h2>
+            <div class="tariff">
+              <div class="tariff__picture"> <img data-src="img/bronze-landing.jpg" alt="Bronze Landing Page picture"> </div>
+              <article class="tariff__article">
+                <h3 class="article__title">Bronze Landing Page</h3>
+                <h6 class="article__small-title">MekongMoments ‘Bronze’ experience page</h6>
+                <p class="article__paragraph">Every experience on Mekong Moments has a Bronze page. Which is a dedicatred website, which showcases the aggregated social media content as well as basic information about the experience. The header has one or more images.</p>
+                <h6 class="article__small-title">Descriptions</h6>
+                <p class="article__paragraph">A custom description can be added to inform visitors about the experience.</p>
+                <h6 class="article__small-title">Action Button</h6>
+                <p class="article__paragraph">The action button will can be set-up with a custom text and link.</p>
+                <h6 class="article__small-title">Weather Bar</h6>
+                <p class="article__paragraph">The local weather and time is picked based on the location of the eperience.</p>
+                <h6 class="article__small-title">Social Media Connector</h6>
+                <p class="article__paragraph">Each experience is able to set-up all their social media channels </p>
+              </article>
+              <!-- plus icon --><span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span> </div>
-            </div>
-          </section>
-          <!-- next section -->
-          <div class="tariff__section tariff__section--dark">
-            <div class="container">
-              <div class="tariff">
-                <div class="tariff__picture"> <img data-src="img/bronze-moments.png" alt="Bronze Landing Page pictute"> </div>
-                <article class="tariff__article">
-                  <h3 class="article__title">Own Moments Board</h3>
-                  <h6 class="article__small-title">Moments board</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                    ut aliquip ex ea commodo consequat.</p>
-                  <h6 class="article__small-title">Embed code for Moments board</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                    ut aliquip ex ea commodo consequat.</p>
-                </article>
-                <!-- plus icon --><span class="add-plus">
-<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
-</span> </div>
-            </div>
           </div>
-          <!-- next section -->
-          <div class="tariff__section">
-            <div class="container">
-              <div class="tariff">
-                <div class="tariff__picture"> <img data-src="img/bronze-features.png" alt="Bronze Landing Page pictute"> </div>
-                <article class="tariff__article">
-                  <h3 class="article__title">Showcase Features</h3>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                    ut aliquip ex ea commodo consequat.</p>
-                </article>
-                <!-- plus icon --><span class="add-plus">
+        </section>
+        <!-- next section -->
+        <div class="tariff__section tariff__section--dark">
+          <div class="container">
+            <div class="tariff">
+              <div class="tariff__picture"> <img data-src="img/bronze-moments.png" alt="Bronze Landing Page picture"> </div>
+              <article class="tariff__article">
+                <h3 class="article__title">Own Moments Board</h3>
+                <h6 class="article__small-title">Moments board</h6>
+                <p class="article__paragraph">Each Bronze experience shows the moments board with all images that are tagged with #MekongMoments and the experience’s campaign hashtags. The image board can be curated through the business backend.</p>
+                <h6 class="article__small-title">Embed code for Moments board</h6>
+                <p class="article__paragraph">The business backend also gives access to the embed code generator. Using this tool, an embed code can be generated to showcase the Moments board on any other website.</p>
+              </article>
+              <!-- plus icon --><span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span> </div>
-            </div>
           </div>
-          <!-- next section -->
-          <div class="tariff__section tariff__section--dark">
-            <div class="container">
-              <div class="tariff">
-                <div class="tariff__picture"> <img data-src="img/bronze-connector.jpg" alt="Bronze Landing Page pictute"> </div>
-                <article class="tariff__article">
-                  <h3 class="article__title">External Experience Connector</h3>
-                  <h6 class="article__small-title">Know your neibourhoods</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                    ut aliquip ex ea commodo consequat.</p>
-                  <h6 class="article__small-title">Map & Coordinates</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                    ut aliquip ex ea commodo consequat.</p>
-                  <h6 class="article__small-title">Categorized Experiences Function</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                    ut aliquip ex ea commodo consequat.</p>
-                </article>
-                <!-- plus icon --><span class="add-plus">
+        </div>
+        <!-- next section -->
+        <div class="tariff__section">
+          <div class="container">
+            <div class="tariff">
+              <div class="tariff__picture"> <img data-src="img/bronze-features.png" alt="Bronze Landing Page picture"> </div>
+              <article class="tariff__article">
+                <h3 class="article__title">Showcase Features</h3>
+                <p class="article__paragraph">Featues can be picked while setting up experiences. Visitors can browse for experience by features. It is recommended to be as precise as possible.</p>
+              </article>
+              <!-- plus icon --><span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span> </div>
-            </div>
           </div>
-          <!-- next section -->
-          <div class="tariff__section">
-            <div class="container">
-              <div class="tariff tariff--stretched">
-                <div class="tariff__picture"> <img data-src="img/bronze-footer.jpg" alt="Bronze Landing Page pictute"> </div>
-                <article class="tariff__article">
-                  <div>
-                    <h3 class="article__title">Page Footer</h3>
-                    <h6 class="article__small-title">Group pages connector</h6>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                      nisl ut aliquip ex ea commodo consequat.</p>
-                  </div> <a href="page.html" class="btn-green" role="button">
+        </div>
+        <!-- next section -->
+        <div class="tariff__section tariff__section--dark">
+          <div class="container">
+            <div class="tariff">
+              <div class="tariff__picture"> <img data-src="img/bronze-connector.jpg" alt="Bronze Landing Page picture"> </div>
+              <article class="tariff__article">
+                <h3 class="article__title">External Experience Connector</h3>
+                <h6 class="article__small-title">Know your neibourhoods</h6>
+                <p class="article__paragraph">Each experience can connect to as many other experience as they wish. There are various kinds of connections, from two-way, to mention and hidden connections.</p>
+                <h6 class="article__small-title">Map & Coordinates</h6>
+                <p class="article__paragraph">Connected experiences can be shown on the map of the experience page.</p>
+                <h6 class="article__small-title">Categorized Experiences Function</h6>
+                <p class="article__paragraph">There is a browsing function on the experience page to show or hide external experiences by category.</p>
+              </article>
+              <!-- plus icon --><span class="add-plus">
+<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
+</span> </div>
+          </div>
+        </div>
+        <!-- next section -->
+        <div class="tariff__section">
+          <div class="container">
+            <div class="tariff tariff--stretched">
+              <div class="tariff__picture"> <img data-src="img/bronze-footer.jpg" alt="Bronze Landing Page picture"> </div>
+              <article class="tariff__article">
+                <div>
+                  <h3 class="article__title">Page Footer</h3>
+                  <h6 class="article__small-title">Group pages connector</h6>
+                  <p class="article__paragraph">The page footer shows a short write-up about the experienve as well as any group and affiliation the experience in member of.</p>
+                </div> <a href="page.html" class="btn-green" role="button">
               <span class="plan__icons-box">
                         <span class="plan__icon">
                           <span class="icon-wrap">
@@ -1171,182 +1168,144 @@
               </span>
               </span>
               <span>PREVIEW FULL PAGE</span></a> </article>
-              </div>
             </div>
           </div>
         </div>
-        <!-- end main -->
-        <!-- begin footer  -->
-        <footer class="footer">
-          <div class="container">
-            <!-- plus icon --><span class="add-plus">
+      </div>
+      <!-- end main -->
+      <!-- begin footer  -->
+      <div class="section-footer">
+        <div class="container">
+          <!-- plus icon --><span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span>
-            <h5 class="footer__title">Everything you might need…</h5>
-            <div class="footer__article">
-              <div class="article__item"> <i class="article__icon"><img data-src="img/icon-here.svg" class="icon-here" alt="You are here"></i>
-                <h6 class="article__small-title">MekongMoments map listing </h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
-              <div class="article__item"> <i class="article__icon">
+          <h5 class="footer__title">Everything you might need…</h5>
+          <div class="footer__article">
+            <div class="article__item"> <i class="article__icon"><img data-src="img/icon-here.svg" class="icon-here" alt="You are here"></i>
+              <h6 class="article__small-title">MekongMoments map listing </h6>
+              <p class="article__paragraph">Show where you are located and how customers can find you.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
 <svg class="icon icon-hash"><use xlink:href="img/sprite.svg#icon-hash"></use></svg>
 </i>
-                <h6 class="article__small-title">Unlimited campaigns and offers</h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
-              <div class="article__item"> <i class="article__icon">
+              <h6 class="article__small-title">Unlimited campaigns and offers</h6>
+              <p class="article__paragraph">Use the power of collaborative social commerce by running social media campaigns of your own or in collaboration with others.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
 <svg class="icon icon-users"><use xlink:href="img/sprite.svg#icon-users"></use></svg>
 </i>
-                <h6 class="article__small-title">Unlimited users</h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
-              <div class="article__item"> <i class="article__icon">
+              <h6 class="article__small-title">Unlimited users</h6>
+              <p class="article__paragraph">You can connect as many users to your account as you wish. Each user can be assigned their own role or experiences to manage.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
 <svg class="icon icon-eye"><use xlink:href="img/sprite.svg#icon-eye"></use></svg>
 </i>
-                <h6 class="article__small-title">Availability to showcase experience</h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
-              <div class="article__item"> <i class="article__icon">
+              <h6 class="article__small-title">Availability to showcase experience</h6>
+              <p class="article__paragraph">Make more of your listing. Boost your experience and increase your visibility on Mekong Moments.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
 <svg class="icon icon-sindication"><use xlink:href="img/sprite.svg#icon-sindication"></use></svg>
 </i>
-                <h6 class="article__small-title">Syndication available</h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
-              <div class="article__item"> <i class="article__icon">
+              <h6 class="article__small-title">Syndication available</h6>
+              <p class="article__paragraph">We help you distribute your content. Allow us to make your public content available to others (under development)</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
 <svg class="icon icon-reporting"><use xlink:href="img/sprite.svg#icon-reporting"></use></svg>
 </i>
-                <h6 class="article__small-title">Reporting tools</h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
-              <div class="article__item"> <i class="article__icon">
+              <h6 class="article__small-title">Reporting tools</h6>
+              <p class="article__paragraph">Make use of the reporting tools in your business backend.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
 <svg class="icon icon-graphic"><use xlink:href="img/sprite.svg#icon-graphic"></use></svg>
 </i>
-                <h6 class="article__small-title">Business resources and supports</h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
-              <div class="article__item"> <i class="article__icon">
+              <h6 class="article__small-title">Business resources and supports</h6>
+              <p class="article__paragraph">Mekong Moments is a capacity building platform. A number of business resources and support function are available in the business backend.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
 <svg class="icon icon-handshaking"><use xlink:href="img/sprite.svg#icon-handshaking"></use></svg>
 </i>
-                <h6 class="article__small-title">Business resources and supports</h6>
-                <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-              </div>
+              <h6 class="article__small-title">Business resources and supports</h6>
+              <p class="article__paragraph">Connect to third party services through Mekong Moments.</p>
             </div>
           </div>
-        </footer>
-        <!-- end footer -->
+        </div>
       </div>
-      <!-- *****************
+      <!-- end section footer -->
+    </div>
+    <!-- *****************
   ***************** -->
-      <div class="tariff-wrap tariff--silver" id="tariff-silver">
-        <!-- begin main  -->
-        <div class="main">
-          <!-- tariff silver -->
-          <section class="tariff__section tariff__section--light">
-            <div class="container">
-              <h2 class="tariff__title"> <span class="plan__icons-box">
+    <div class="tariff-wrap tariff--silver" id="tariff-silver">
+      <!-- begin main  -->
+      <div class="main">
+        <!-- tariff silver -->
+        <section class="tariff__section tariff__section--light">
+          <div class="container">
+            <h2 class="tariff__title"> <span class="plan__icons-box">
                     <span class="plan__icon">
                       <span class="icon-wrap">
 <svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
 </span> </span>
-                </span> <span class="plan__icons-box plan__icons-box--silver icons-box--ml">
+              </span> <span class="plan__icons-box plan__icons-box--silver icons-box--ml">
                   <span class="plan__icon">
                     <span class="icon-wrap">
 <svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
 </span> </span>
-                </span> SILVER EXPERIENCE</h2>
-              <div class="tariff">
-                <div class="tariff__picture"> <img data-src="img/silver-landing.jpg" alt="silver Landing Page pictute"> </div>
-                <article class="tariff__article">
-                  <h3 class="article__title">Silver Landing Page</h3>
-                  <h6 class="article__small-title">MekongMoments ‘Silver’ experience page</h6>
-                  <div class="article__paragraph article__figure">
-                    <div class="figure">
-                      <div class="figure__icons"> <span class="plan__icons-box">
+              </span> SILVER EXPERIENCE</h2>
+            <div class="tariff">
+              <div class="tariff__picture"> <img data-src="img/silver-landing.jpg" alt="silver Landing Page pictute"> </div>
+              <article class="tariff__article">
+                <h3 class="article__title">Silver Landing Page</h3>
+                <h6 class="article__small-title">MekongMoments ‘Silver’ experience page</h6>
+                <div class="article__paragraph article__figure">
+                  <div class="figure">
+                    <div class="figure__icons"> <span class="plan__icons-box">
                             <span class="plan__icon">
                               <span class="icon-wrap">
 <svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
 </span> </span>
-                        </span> <span class="figure__icons-plus">
+                      </span> <span class="figure__icons-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span> <span class="plan__icons-box plan__icons-box--silver">
                             <span class="plan__icon">
                               <span class="icon-wrap">
 <svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
 </span> </span>
-                        </span>
-                      </div> <a class="figure__link" href="features.html">See Bronze Plan</a> </div>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                      nisl ut aliquip ex ea commodo consequat. </p>
-                  </div>
-                  <h6 class="article__small-title">Own branding design</h6>
-                  <div class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                    <div class="figure-row"> <svg class="icon icon-word-logo"><use xlink:href="img/sprite.svg#icon-word-logo"></use></svg> <span class="logo-grey">
+                      </span>
+                    </div> <a class="figure__link" href="#tariff-bronze">See Bronze Plan</a> </div>
+                  <p class="article__paragraph">The Silver experience page builds on the Bronze experience page. Make your experience page your own by showcasing your branding and through added features and functions.</p>
+                </div>
+                <h6 class="article__small-title">Own branding design</h6>
+                <div class="article__paragraph">Add your own logo and remove the Mekong Moments watermark
+                  <div class="figure-row"> <svg class="icon icon-word-logo"><use xlink:href="img/sprite.svg#icon-word-logo"></use></svg> <span class="logo-grey">
 <svg class="icon icon-word-logo"><use xlink:href="img/sprite.svg#icon-word-logo"></use></svg>
 </span> </div>
-                  </div>
-                  <h6 class="article__small-title">Customized colour scheme</h6>
-                  <div class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
-                    <div class="figure-row"> <span class="icon-spectrum icon-shadow"><img data-src="img/spectrum.png" alt="Spectrum"></span> <span class="icon-block icon-block--blue"></span> <span class="brush icon-shadow">
+                </div>
+                <h6 class="article__small-title">Customized colour scheme</h6>
+                <div class="article__paragraph">User up to two of your brand colours.
+                  <div class="figure-row"> <span class="icon-spectrum icon-shadow"><img data-src="img/spectrum.png" alt="Spectrum"></span> <span class="icon-block icon-block--blue"></span> <span class="brush icon-shadow">
 <svg class="icon icon-brush"><use xlink:href="img/sprite.svg#icon-brush"></use></svg>
 </span> <span class="icon-block"></span> <span class="brush icon-shadow">
 <svg class="icon icon-brush"><use xlink:href="img/sprite.svg#icon-brush"></use></svg>
 </span> <a href="#" class="btn-book">Book Now</a> <span class="brush icon-shadow">
 <svg class="icon icon-brush"><use xlink:href="img/sprite.svg#icon-brush"></use></svg>
 </span> </div>
-                  </div>
-                  <h6 class="article__small-title">Integrate Booking Engine</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
-                </article>
-                <!-- plus icon --><span class="add-plus">
+                </div>
+              </article>
+              <!-- plus icon --><span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 </span> </div>
-            </div>
-          </section>
-          <!-- next section -->
-          <div class="tariff__section--dark">
-            <div class="tariff__section">
-              <div class="container">
-                <div class="tariff">
-                  <div class="tariff__picture"> <img data-src="img/silver-connector.png" alt="Internal Experience Connector pictute"> </div>
-                  <article class="tariff__article">
-                    <h3 class="article__title">Internal Experience Connector</h3>
-                    <h6 class="article__small-title">Show all your business pages</h6>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                      nisl ut aliquip ex ea commodo consequat.</p>
-                  </article>
-                  <!-- plus icon --><span class="add-plus">
-<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
-</span> </div>
-              </div>
-            </div>
-            <!-- next section -->
-            <div class="tariff__section ">
-              <div class="container">
-                <div class="tariff">
-                  <div class="tariff__picture"> <img data-src="img/silver-offers.png" alt="Connect all campaigns and offers"> </div>
-                  <article class="tariff__article">
-                    <h3 class="article__title">Connect all campaigns and offers</h3>
-                    <h6 class="article__small-title">Show your offers</h6>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                      nisl ut aliquip ex ea commodo consequat.</p>
-                  </article>
-                  <!-- plus icon --><span class="add-plus">
-<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
-</span> </div>
-              </div>
-            </div>
           </div>
-          <!-- next section -->
+        </section>
+        <!-- next section -->
+        <div class="tariff__section--dark">
           <div class="tariff__section">
             <div class="container">
               <div class="tariff">
-                <div class="tariff__picture"> <img data-src="img/silver-gallery.png" alt="silver Landing Page pictute"> </div>
+                <div class="tariff__picture"> <img data-src="img/silver-connector.png" alt="Internal Experience Connector pictute"> </div>
                 <article class="tariff__article">
-                  <h3 class="article__title">Image Gallery Page</h3>
-                  <h6 class="article__small-title">Full page gallery</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                  <h6 class="article__small-title">Create your albums</h6>
-                  <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                  <h3 class="article__title">Internal Experience Connector</h3>
+                  <h6 class="article__small-title">Show all your business pages</h6>
+                  <p class="article__paragraph">Showcase all your other experiences through the internal experience connector.</p>
                 </article>
                 <!-- plus icon --><span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
@@ -1354,19 +1313,52 @@
             </div>
           </div>
           <!-- next section -->
-          <div class="tariff__section tariff__section--dark">
+          <div class="tariff__section ">
             <div class="container">
-              <div class="tariff ">
-                <div class="tariff__picture"> <img data-src="img/silver-events.png" alt="Events"> </div>
-                <article class="tariff__article ">
-                  <div>
-                    <h3 class="article__title">Events Page</h3>
-                    <h6 class="article__small-title">Integrate calendar & search function </h6>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                    <h6 class="article__small-title">Integrate calendar & search function </h6>
-                    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                  </div>
-                  <div class="btn-box"> <a href="page.html" class="btn-green" role="button">
+              <div class="tariff">
+                <div class="tariff__picture"> <img data-src="img/silver-offers.png" alt="Connect all campaigns and offers"> </div>
+                <article class="tariff__article">
+                  <h3 class="article__title">Connect all campaigns and offers</h3>
+                  <h6 class="article__small-title">Show your offers</h6>
+                  <p class="article__paragraph">Show your own offers and campaigns to generate more business through MekongMoments</p>
+                </article>
+                <!-- plus icon --><span class="add-plus">
+<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
+</span> </div>
+            </div>
+          </div>
+        </div>
+        <!-- next section -->
+        <div class="tariff__section">
+          <div class="container">
+            <div class="tariff">
+              <div class="tariff__picture"> <img data-src="img/silver-gallery.png" alt="silver Landing Page picture"> </div>
+              <article class="tariff__article">
+                <h3 class="article__title">Image Gallery Page</h3>
+                <h6 class="article__small-title">Full page gallery</h6>
+                <p class="article__paragraph">Post your own images in your gallery. This content will also be syndicated (future development)</p>
+                <h6 class="article__small-title">Create your albums</h6>
+                <p class="article__paragraph">Group yuour images in albums.</p>
+              </article>
+              <!-- plus icon --><span class="add-plus">
+<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
+</span> </div>
+          </div>
+        </div>
+        <!-- next section -->
+        <div class="tariff__section tariff__section--dark">
+          <div class="container">
+            <div class="tariff ">
+              <div class="tariff__picture"> <img data-src="img/silver-events.png" alt="Events"> </div>
+              <article class="tariff__article ">
+                <div>
+                  <h3 class="article__title">Events Page</h3>
+                  <h6 class="article__small-title">Integrate calendar & search function </h6>
+                  <p class="article__paragraph">Show your internet events to generate direct bookings and reservations. With an integrated calendar, it is easy for visitors to search your events.</p>
+                  <h6 class="article__small-title">Show all of your events</h6>
+                  <p class="article__paragraph"></p>
+                </div>
+                <div class="btn-box"> <a href="page.html" class="btn-green" role="button">
                 <span class="plan__icons-box plan__icons-box--silver">
                           <span class="plan__icon">
                             <span class="icon-wrap">
@@ -1375,14 +1367,149 @@
                 </span>
                 </span>
                 <span>PREVIEW FULL PAGE</span></a> </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end main -->
+      <!-- begin footer  -->
+      <div class="section-footer">
+        <div class="container">
+          <!-- plus icon --><span class="add-plus">
+<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
+</span>
+          <h5 class="footer__title">Everything you might need…</h5>
+          <div class="footer__article">
+            <div class="article__item"> <i class="article__icon"><img data-src="img/icon-here.svg" class="icon-here" alt="You are here"></i>
+              <h6 class="article__small-title">MekongMoments map listing </h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
+<svg class="icon icon-hash"><use xlink:href="img/sprite.svg#icon-hash"></use></svg>
+</i>
+              <h6 class="article__small-title">Unlimited campaigns and offers</h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
+<svg class="icon icon-users"><use xlink:href="img/sprite.svg#icon-users"></use></svg>
+</i>
+              <h6 class="article__small-title">Unlimited users</h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
+<svg class="icon icon-eye"><use xlink:href="img/sprite.svg#icon-eye"></use></svg>
+</i>
+              <h6 class="article__small-title">Availability to showcase experience</h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
+<svg class="icon icon-sindication"><use xlink:href="img/sprite.svg#icon-sindication"></use></svg>
+</i>
+              <h6 class="article__small-title">Syndication available</h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
+<svg class="icon icon-reporting"><use xlink:href="img/sprite.svg#icon-reporting"></use></svg>
+</i>
+              <h6 class="article__small-title">Reporting tools</h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
+<svg class="icon icon-graphic"><use xlink:href="img/sprite.svg#icon-graphic"></use></svg>
+</i>
+              <h6 class="article__small-title">Business resources and supports</h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+            <div class="article__item"> <i class="article__icon">
+<svg class="icon icon-handshaking"><use xlink:href="img/sprite.svg#icon-handshaking"></use></svg>
+</i>
+              <h6 class="article__small-title">Business resources and supports</h6>
+              <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end section footer -->
+    </div>
+    <!-- *****************
+  ***************** -->
+    <div class="tariff-wrap tariff--gold tariff--silver" id="tariff-gold">
+      <!-- begin main  -->
+      <div class="main">
+        <!-- tariff Gold -->
+        <section class="tariff__section tariff__section--light">
+          <div class="container">
+            <h2 class="tariff__title"> <span class="plan__icons-box">
+            <span class="plan__icon">
+              <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+</span> </span>
+              </span> <span class="plan__icons-box plan__icons-box--silver icons-box--ml">
+            <span class="plan__icon">
+               <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+</span> </span>
+              </span> <span class="plan__icons-box plan__icons-box--gold icons-box--ml">
+              <span class="plan__icon">
+                 <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+</span> </span>
+              </span> GOLD EXPERIENCE</h2>
+            <div class="tariff">
+              <div class="tariff__picture"> <img data-src="img/gold-landing1.jpg" alt="Gold Landing Page picture"> <img data-src="img/gold-landing2.jpg" class="picture-overlay1" alt="Gold Landing Page picture"> </div>
+              <article class="tariff__article">
+                <h3 class="article__title">Gold Landing Page</h3>
+                <h6 class="article__small-title">MekongMoments ‘Gold’ experience page</h6>
+                <div class="article__paragraph article__figure">
+                  <div class="figure">
+                    <div class="figure__icons"> <span class="plan__icons-box">
+                    <span class="plan__icon">
+                    <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+</span> </span>
+                      </span> <span class="plan__icons-box plan__icons-box--silver icons-box--ml">
+                    <span class="plan__icon">
+                      <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+</span> </span>
+                      </span> <span class="figure__icons-plus">
+<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
+</span> <span class="plan__icons-box plan__icons-box--gold">
+              <span class="plan__icon">
+                 <span class="icon-wrap">
+<svg class="icon icon-sign-in"><use xlink:href="img/sprite.svg#icon-sign-in"></use></svg>
+</span> </span>
+                      </span>
+                    </div> <a class="figure__link" href="#tariff-silver">See Silver Plan</a> </div>
+                  <p class="article__paragraph">You can make the Mekong Moments Gold experience page your own. Use our prepared templated or ask us for a custom design page</p>
+                </div>
+                <h6 class="article__small-title">Own URL</h6>
+                <p class="article__paragraph">Connect your own URL to your experience page. Make it your own homepage while benefitting from the power of social commerce that Mekong Moments offers.</p>
+                <h6 class="article__small-title">Booking Engine</h6>
+                <p class="article__paragraph">Connect your own booking engine. Drive direct bookings through your Gold experience page.</p>
+              </article>
+              <!-- plus icon --><span class="add-plus">
+<svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
+</span> </div>
+          </div>
+        </section>
+        <!-- next section -->
+        <div class="tariff__section">
+          <div class="tariff__section">
+            <div class="container">
+              <div class="tariff tariff--align-top">
+                <div class="tariff__picture"> <img data-src="img/gold-customer1.jpg" alt="Gold picture"> <img data-src="img/gold-customer2.jpg" class="picture-overlay2" alt="Gold Landing Page picture"> </div>
+                <article class="tariff__article">
+                  <h3 class="article__title"> <svg class="icon icon-support"><use xlink:href="img/sprite.svg#icon-support"></use></svg> <span>Gold Customer Support</span> </h3>
+                  <p class="article__paragraph">With a Mekong Moments Gold experience, you have access to enhanced customer support. Ask us about customizations of the page to make it truly your own to attract your target customers.</p>
                 </article>
               </div>
             </div>
           </div>
         </div>
-        <!-- end main -->
         <!-- begin footer  -->
-        <footer class="footer">
+        <div class="section-footer">
           <div class="container">
             <!-- plus icon --><span class="add-plus">
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
@@ -1437,9 +1564,101 @@
               </div>
             </div>
           </div>
-        </footer>
-        <!-- end footer -->
+        </div>
+        <!-- end section footer -->
       </div>
+      <!-- begin footer  -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__navbar">
+            <div class="navbar__section">
+              <div class="navbar__logo"> <svg class="icon icon-mekong-logo"><use xlink:href="img/sprite.svg#icon-mekong-logo"></use></svg> </div>
+              <div>
+                <h5 class="navbar__title">Contact</h5> <a href="mailto:info@mekongmoments.com">info@mekongmoments.com</a> </div>
+            </div>
+            <div class="navbar__section navbar__section--partner">
+              <div class="navbar__title">IN PARTNERSHIP WITH</div>
+              <div class="navbar__partners">
+                <div class="navbar__partners-column"> <svg class="icon icon-mekong-tourism"><use xlink:href="img/sprite.svg#icon-mekong-tourism"></use></svg> </div>
+                <div class="navbar__partners-column"> <svg class="icon icon-swisscontact"><use xlink:href="img/sprite.svg#icon-swisscontact"></use></svg> <svg class="icon icon-myodyssey"><use xlink:href="img/sprite.svg#icon-myodyssey"></use></svg> </div>
+                <div class="navbar__partners-column">
+                <svg class="icon icon-ihg"><use xlink:href="img/sprite.svg#icon-ihg"></use></svg> <img data-src="img/small-luxury.png" class="icon-luxury" alt="small luxury hotels"> </div>
+                <div class="navbar__partners-column"> <img data-src="img/giz.svg" class="icon-giz" alt="giz"> <svg class="icon icon-khiri"><use xlink:href="img/sprite.svg#icon-khiri"></use></svg> </div>
+              </div>
+            </div>
+            <div class="navbar__section">
+              <h5 class="navbar__title">Content</h5>
+              <ul class="navbar__menu">
+                <li><a href="#" class="navbar__menu-link">Moments</a></li>
+                <li><a href="#" class="navbar__menu-link">Map</a></li>
+                <li><a href="#" class="navbar__menu-link">Events</a></li>
+                <li><a href="#" class="navbar__menu-link">Offers</a></li>
+                <li><a href="#" class="navbar__menu-link">Stories</a></li>
+              </ul>
+            </div>
+            <div class="navbar__section">
+              <h5 class="navbar__title">Support</h5>
+              <ul class="navbar__menu">
+                <li><a href="#" class="navbar__menu-link">Report</a></li>
+                <li><a href="#" class="navbar__menu-link">Help</a></li>
+                <li><a href="#" class="navbar__menu-link">FAQ</a></li>
+                <li><a href="#" class="navbar__menu-link">Privacy</a></li>
+                <li><a href="#" class="navbar__menu-link">Terms</a></li>
+              </ul>
+            </div>
+            <div class="navbar__section navbar__section--connect">
+              <h5 class="navbar__title">Let`s connect</h5>
+              <div class="connect__inner"> <a href="#" class="connect__link">
+<svg class="icon icon-fb"><use xlink:href="img/sprite.svg#icon-fb"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-instagram"><use xlink:href="img/sprite.svg#icon-instagram"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-twitter"><use xlink:href="img/sprite.svg#icon-twitter"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-youtube"><use xlink:href="img/sprite.svg#icon-youtube"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-googleplus"><use xlink:href="img/sprite.svg#icon-googleplus"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-pinterest"><use xlink:href="img/sprite.svg#icon-pinterest"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-t"><use xlink:href="img/sprite.svg#icon-t"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-vimeo"><use xlink:href="img/sprite.svg#icon-vimeo"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-vk"><use xlink:href="img/sprite.svg#icon-vk"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-twodots"><use xlink:href="img/sprite.svg#icon-twodots"></use></svg>
+</a> <a href="#" class="connect__link">
+<svg class="icon icon-italk"><use xlink:href="img/sprite.svg#icon-italk"></use></svg>
+</a> </div>
+            </div>
+          </div>
+          <div class="footer__countries">
+            <figure class="footer__country"> <img data-src="img/cambodia.png" alt="Cambodia">
+              <figcaption>Cambodia</figcaption>
+            </figure>
+            <figure class="footer__country"> <img data-src="img/china.png" alt="China">
+              <figcaption>China</figcaption>
+            </figure>
+            <figure class="footer__country"> <img data-src="img/laos.png" alt="Laos">
+              <figcaption>Laos</figcaption>
+            </figure>
+            <figure class="footer__country"> <img data-src="img/myanmar.png" alt="Myanmar">
+              <figcaption>Myanmar</figcaption>
+            </figure>
+            <figure class="footer__country"> <img data-src="img/thailand.png" alt="Thailand">
+              <figcaption>Thailand</figcaption>
+            </figure>
+            <figure class="footer__country"> <img data-src="img/vietnam.png" alt="Vietnam">
+              <figcaption>Vietnam</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copy">© CEN International Co., Ltd. 2017, All Rights Reserved.</p>
+        </div>
+      </footer>
+      <!-- end footer -->
     </div>
     <!-- END WRAPPER -->
     <!-- BEGIN scripts -->
