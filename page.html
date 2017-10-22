@@ -274,7 +274,11 @@
             </div>
           </div>
           <!-- phone-screenshot section -->
-          <div class="phone-screenshot"> <img data-src="img/phone-screenshot.jpg" alt="Phone" class="phone-screenshot__img"> </div>
+          <div class="phone-screenshot"> <img data-src="img/phone-screenshot.jpg" alt="Phone" class="phone-screenshot__img">
+            <picture>
+              <source media="(max-width: 768px)" data-srcset="img/phone-screenshot-@768.jpg" />
+              <source media="(max-width: 480px)" data-srcset="img/phone-screenshot-@480.jpg" /> <img alt="Picture" data-src="img/phone-screenshot.jpg"> </picture>
+          </div>
           <!-- paticipate section -->
           <div class="paticipate">
             <div class="container-wide">
